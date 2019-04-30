@@ -1,0 +1,9 @@
+<?php
+session_name('test');
+//$crypt=sha1('ptijey123');
+//session_id($crypt);
+session_start();
+session_unset();
+session_destroy();
+header('location:index.php');
+?>
